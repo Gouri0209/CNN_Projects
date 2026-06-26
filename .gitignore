@@ -1,0 +1,49 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Model weights (too large for GitHub) ──
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pb
+saved_model/
+
+# ── Dataset files (download via Kaggle) ──
+data/
+*.zip
+*.tif
+*.csv
+*.tsv
+
+# ── Output images ──
+confusion_matrix.png
+training_curves.png
+roc_curve.png
+sample_predictions.png
+
+# ── Kaggle API key (NEVER commit this) ──
+kaggle.json
+.kaggle/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
