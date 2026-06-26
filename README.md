@@ -15,7 +15,7 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 CNN-Projects/
@@ -38,9 +38,9 @@ CNN-Projects/
 
 ---
 
-## 🚀 Projects Overview
+##  Projects Overview
 
-### 1. 🧠 Face Recognition
+### 1.  Face Recognition
 | Field | Details |
 |-------|---------|
 | **Model** | VGG16 (Transfer Learning) |
@@ -48,7 +48,7 @@ CNN-Projects/
 | **Task** | Multi-class face classification (17 celebrities) |
 | **Key Features** | Data augmentation, fine-tuning, confusion matrix |
 
-### 2. 🖼️ Image Classification
+### 2.  Image Classification
 | Field | Details |
 |-------|---------|
 | **Model** | ResNet50 (Transfer Learning) |
@@ -56,7 +56,7 @@ CNN-Projects/
 | **Task** | 6-class scene classification |
 | **Key Features** | Generator-based pipeline, sample prediction visualization |
 
-### 3. 🔬 Cancer Detection
+### 3. Cancer Detection
 | Field | Details |
 |-------|---------|
 | **Model** | EfficientNetB0 (Transfer Learning) |
@@ -66,7 +66,7 @@ CNN-Projects/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** TensorFlow 2.x / Keras
 - **Pretrained Models:** VGG16, ResNet50, EfficientNetB0 (ImageNet weights)
@@ -75,7 +75,7 @@ CNN-Projects/
 
 ---
 
-## ▶️ How to Run (Google Colab)
+##  How to Run (Google Colab)
 
 1. Open any `.ipynb` file in [Google Colab](https://colab.research.google.com)
 2. Set runtime to **GPU**: `Runtime → Change runtime type → T4 GPU`
@@ -87,7 +87,7 @@ CNN-Projects/
 
 ---
 
-## 💻 How to Run Locally
+##  How to Run Locally
 
 ```bash
 # Clone the repo
@@ -106,18 +106,18 @@ Follow `dataset_setup.md` inside each project folder to download the dataset via
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 Each project outputs:
-- ✅ Training & validation **accuracy/loss curves**
-- ✅ **Confusion matrix** (heatmap)
-- ✅ **Classification report** (Precision, Recall, F1)
-- ✅ **ROC Curve + AUC** *(Cancer Detection only)*
-- ✅ **Sample prediction visualization** *(Image Classification)*
+-  Training & validation **accuracy/loss curves**
+-  **Confusion matrix** (heatmap)
+-  **Classification report** (Precision, Recall, F1)
+-  **ROC Curve + AUC** *(Cancer Detection only)*
+-  **Sample prediction visualization** *(Image Classification)*
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - Dataset files are **not included** in this repo (too large). Download via Kaggle — see each `dataset_setup.md`.
 - Model `.h5` weight files are excluded via `.gitignore`.
@@ -126,6 +126,6 @@ Each project outputs:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
